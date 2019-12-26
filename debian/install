@@ -1,0 +1,2 @@
+output/keyrings/zsien-keyring.gpg       etc/apt/trusted.gpg.d/
+output/keyrings/zsien-keyring.gpg       usr/share/keyrings/

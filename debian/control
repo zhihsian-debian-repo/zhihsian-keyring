@@ -1,0 +1,21 @@
+Source: zsien-keyring
+Section: misc
+Priority: optional
+Maintainer: zsien <i@zsien.cn>
+Build-Depends:
+ debhelper-compat (= 12),
+ gawk,
+ gnupg,
+Standards-Version: 4.5.1
+Homepage: https://github.com/zsien-debian-repo/zsien-keyring
+Vcs-Browser: https://github.com/zsien-debian-repo/zsien-keyring
+Vcs-Git: https://github.com/zsien-debian-repo/zsien-keyring.git
+
+Package: zsien-keyring
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: GnuPG keys of zsien
+ zsien wants developers to digitally sign the announcements
+ of his packages with GnuPG, to protect against forgeries.
+ This package contains keyrings and keys.
